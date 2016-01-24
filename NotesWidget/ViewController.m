@@ -22,4 +22,7 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction)close:(id)sender {
+    [NSApp terminate:self];
+}
 @end
