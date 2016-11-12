@@ -19,6 +19,7 @@
 		BC37BB951C52BB4C00AFFCF6 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC37BB931C52BB4C00AFFCF6 /* TodayViewController.xib */; };
 		BC37BB991C52BB4C00AFFCF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC37BB971C52BB4C00AFFCF6 /* InfoPlist.strings */; };
 		BC37BB9C1C52BB4C00AFFCF6 /* Notes.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC37BB891C52BB4C00AFFCF6 /* Notes.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC6BEF891DD6977B00A9F5D9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BC6BEF881DD6977B00A9F5D9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		BC37BB941C52BB4C00AFFCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
 		BC37BB961C52BB4C00AFFCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC37BB981C52BB4C00AFFCF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC6BEF881DD6977B00A9F5D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		BC37BB491C52BB0200AFFCF6 = {
 			isa = PBXGroup;
 			children = (
+				BC6BEF881DD6977B00A9F5D9 /* README.md */,
 				BC37BB541C52BB0200AFFCF6 /* NotesWidget */,
 				BC37BB6B1C52BB0200AFFCF6 /* NotesWidgetTests */,
 				BC37BB761C52BB0200AFFCF6 /* NotesWidgetUITests */,
@@ -374,6 +377,7 @@
 			files = (
 				BC37BB5D1C52BB0200AFFCF6 /* ViewController.m in Sources */,
 				BC37BB5A1C52BB0200AFFCF6 /* main.m in Sources */,
+				BC6BEF891DD6977B00A9F5D9 /* README.md in Sources */,
 				BC37BB571C52BB0200AFFCF6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,6 +654,7 @@
 				BC37BB7E1C52BB0200AFFCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC37BB7F1C52BB0200AFFCF6 /* Build configuration list for PBXNativeTarget "NotesWidgetTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +663,7 @@
 				BC37BB811C52BB0200AFFCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC37BB821C52BB0200AFFCF6 /* Build configuration list for PBXNativeTarget "NotesWidgetUITests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +672,7 @@
 				BC37BB841C52BB0200AFFCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC37BB9D1C52BB4C00AFFCF6 /* Build configuration list for PBXNativeTarget "Notes" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +681,7 @@
 				BC37BB9F1C52BB4C00AFFCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
