@@ -6,8 +6,7 @@
 </p>
 
 <p>
-  <a href="http://bit.ly/2fFbiXP">Download the dmg containing the app</a><br/>
-  <a href="http://bit.ly/1nGYza2">Download the First version (< OS X 10.12)</a><br/>
+  <a href="https://www.dropbox.com/s/f0hehpk453uzx11/NotesWidget.dmg?dl=0">Download the dmg containing the app</a><br/>
   <a href="http://bit.ly/1OOkNO0">Get the code</a><br/>
 </p>
 <p>
